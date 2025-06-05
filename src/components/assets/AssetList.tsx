@@ -80,9 +80,9 @@ export default function AssetList({
 						<select
 							value={selectedSKU}
 							onChange={(e) => onSKUFilter(e.target.value)}
-							className="px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+							className="px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-gray-900"
 						>
-							<option value="">All SKUs</option>
+							<option value="" className="text-gray-900 font-medium">All SKUs</option>
 							{skus.map((sku) => (
 								<option key={String(sku._id)} value={String(sku._id)}>
 									{sku.name} ({sku.skuCode})
@@ -92,9 +92,9 @@ export default function AssetList({
 						<select
 							value={selectedStatus}
 							onChange={(e) => onStatusFilter(e.target.value)}
-							className="px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+							className="px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-gray-900"
 						>
-							<option value="">All Statuses</option>
+							<option value="" className="text-gray-900 font-medium">All Statuses</option>
 							{statuses.map((status) => (
 								<option key={status} value={status}>
 									{status.charAt(0).toUpperCase() + status.slice(1)}
@@ -104,9 +104,9 @@ export default function AssetList({
 						<select
 							value={selectedDatacenter}
 							onChange={(e) => onDatacenterFilter(e.target.value)}
-							className="px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+							className="px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-gray-900"
 						>
-							<option value="">All Datacenters</option>
+							<option value="" className="text-gray-900 font-medium">All Datacenters</option>
 							{uniqueDatacenters.map((datacenter) => (
 								<option key={datacenter} value={datacenter}>
 									{datacenter}
@@ -116,9 +116,9 @@ export default function AssetList({
 						<select
 							value={selectedEnvironment}
 							onChange={(e) => onEnvironmentFilter(e.target.value)}
-							className="px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+							className="px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-gray-900"
 						>
-							<option value="">All Environments</option>
+							<option value="" className="text-gray-900 font-medium">All Environments</option>
 							{environments.map((environment) => (
 								<option key={environment} value={environment}>
 									{environment.charAt(0).toUpperCase() + environment.slice(1)}

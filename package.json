@@ -7,9 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "seed": "node src/scripts/seed.js",
-    "seed:generate": "ts-node src/scripts/generate-seed-data.ts",
-    "db:reset": "ts-node src/scripts/generate-seed-data.ts"
+    "seed": "node src/scripts/simple-seed.js",
+    "seed:generate": "node src/scripts/simple-seed.js",
+    "db:reset": "node src/scripts/simple-seed.js"
   },
   "dependencies": {
     "chart.js": "^4.4.9",

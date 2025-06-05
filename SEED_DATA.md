@@ -27,32 +27,23 @@ npx ts-node src/scripts/generate-seed-data.ts
 
 The seed data generator creates a complete test dataset including:
 
-### 📁 **5 Catalogs**
+### 📁 **3 Catalogs**
 - **Enterprise Servers** (server category)
 - **Network Switches** (network-switch category)  
 - **Firewalls** (firewall category)
-- **Storage Arrays** (storage category)
-- **Workstations** (workstation category)
 
-### 🏷️ **8 SKUs** (Product Models)
-- **HP ProLiant DL380 Gen10** - Enterprise rack server
-- **Dell PowerEdge R740xd** - High-capacity storage server
-- **Cisco Catalyst 9300 48-Port** - Enterprise switch
-- **Arista 7050X3-32S** - High-performance 100GbE switch
-- **Palo Alto PA-3220** - Next-gen firewall
-- **Fortinet FortiGate 600F** - Enterprise firewall
-- **Dell ME4024** - SAS storage array
-- **HP Z4 G4 Workstation** - Development workstation
+### 🏷️ **3 SKUs** (Product Models)
+- **HP ProLiant DL380 Gen10** - Enterprise rack server ($4,500 MSRP)
+- **Cisco Catalyst 9300 48-Port** - Enterprise switch ($8,500 MSRP)
+- **Palo Alto PA-3220** - Next-gen firewall ($12,000 MSRP)
 
-### 💻 **80 Assets** (10 per SKU)
+### 💻 **30 Assets** (10 per SKU)
 Each asset includes:
 - **Unique asset tags** and serial numbers
-- **Geographic distribution** across 5 datacenters:
+- **Geographic distribution** across 3 datacenters:
   - US-East-1 (New York)
   - US-West-2 (San Francisco)
   - EU-Central-1 (Frankfurt)
-  - APAC-Southeast-1 (Singapore)
-  - US-Central-1 (Chicago)
 - **Environment assignments**: production, staging, development, testing, backup
 - **Financial data**: purchase prices, dates, depreciation
 - **OPEX contracts**: warranty and maintenance agreements
@@ -97,27 +88,27 @@ export MONGODB_URI="mongodb+srv://username:password@cluster.mongodb.net/inventor
 ## Data Volume and Performance
 
 ### Generated Volumes
-- **5 catalogs** with detailed specifications
-- **8 SKUs** with comprehensive product data
-- **80 assets** with full lifecycle information
-- **120+ OPEX contracts** (warranty & maintenance)
-- **Total documents**: ~200+ across all collections
+- **3 catalogs** with detailed specifications
+- **3 SKUs** with comprehensive product data
+- **30 assets** with full lifecycle information
+- **Total documents**: ~36 across all collections
 
 ### Performance
-- **Generation time**: 5-15 seconds typical
-- **Database size**: ~2-5 MB of test data
+- **Generation time**: 2-5 seconds typical
+- **Database size**: ~1-2 MB of test data
 - **Memory usage**: Minimal - suitable for development environments
 
 ## Customization
 
 ### Modify Generation Volumes
-Edit `src/scripts/generate-seed-data.ts`:
-```typescript
-const SEED_CONFIG = {
-  catalogs: 5,           // Number of catalog categories
-  skusPerCatalog: 2,     // SKUs per catalog (varies by template)
-  assetsPerSku: 10,      // Assets per SKU
-}
+Edit `src/scripts/simple-seed.js`:
+```javascript
+// Modify these arrays to add more data
+const catalogs = [ /* add more catalog objects */ ]
+const skus = [ /* add more SKU objects */ ]
+
+// Change this loop to create more assets per SKU
+for (let j = 0; j < 10; j++) { // Change 10 to desired number
 ```
 
 ### Add Custom Data
@@ -160,10 +151,10 @@ After running the seed script, verify data:
 ```bash
 # Check the dashboard at http://localhost:3000
 # Should show:
-# - 5 catalogs
-# - 8 SKUs  
-# - 80 assets
-# - $350K+ total value
+# - 3 catalogs
+# - 3 SKUs  
+# - 30 assets
+# - $250K+ total value
 ```
 
 ## Integration with Application

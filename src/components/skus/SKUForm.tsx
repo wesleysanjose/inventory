@@ -197,11 +197,11 @@ export default function SKUForm({ sku, catalogs, onSubmit, onCancel }: SKUFormPr
 								name="catalogId"
 								value={formData.catalogId}
 								onChange={handleChange}
-								className={`w-full px-3 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 ${
+								className={`w-full px-3 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-gray-900 ${
 									errors.catalogId ? 'border-red-500' : 'border-gray-300'
 								}`}
 							>
-								<option value="">Select a catalog</option>
+								<option value="" className="text-gray-900 font-medium">Select a catalog</option>
 								{catalogs.map((catalog) => (
 									<option key={String(catalog._id)} value={String(catalog._id)}>
 										{catalog.name} ({catalog.category})
@@ -288,7 +288,7 @@ export default function SKUForm({ sku, catalogs, onSubmit, onCancel }: SKUFormPr
 								name="status"
 								value={formData.status}
 								onChange={handleChange}
-								className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+								className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-gray-900"
 							>
 								{statuses.map((status) => (
 									<option key={status} value={status}>

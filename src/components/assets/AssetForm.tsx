@@ -259,11 +259,11 @@ export default function AssetForm({ asset, skus, onSubmit, onCancel }: AssetForm
 								name="skuId"
 								value={formData.skuId}
 								onChange={handleChange}
-								className={`w-full px-3 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 ${
+								className={`w-full px-3 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-gray-900 ${
 									errors.skuId ? 'border-red-500' : 'border-gray-300'
 								}`}
 							>
-								<option value="">Select a SKU</option>
+								<option value="" className="text-gray-900 font-medium">Select a SKU</option>
 								{skus.map((sku) => (
 									<option key={String(sku._id)} value={String(sku._id)}>
 										{sku.name} ({sku.skuCode})
@@ -333,7 +333,7 @@ export default function AssetForm({ asset, skus, onSubmit, onCancel }: AssetForm
 								name="status"
 								value={formData.status}
 								onChange={handleChange}
-								className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+								className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-gray-900"
 							>
 								{statuses.map((status) => (
 									<option key={status} value={status}>
@@ -594,7 +594,7 @@ export default function AssetForm({ asset, skus, onSubmit, onCancel }: AssetForm
 									name="financial.warranty.type"
 									value={formData.financial.warranty.type}
 									onChange={handleChange}
-									className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+									className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-gray-900"
 								>
 									{warrantyTypes.map((type) => (
 										<option key={type} value={type}>
@@ -679,7 +679,7 @@ export default function AssetForm({ asset, skus, onSubmit, onCancel }: AssetForm
 								name="deployment.environment"
 								value={formData.deployment.environment}
 								onChange={handleChange}
-								className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+								className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-gray-900"
 							>
 								{environments.map((env) => (
 									<option key={env} value={env}>

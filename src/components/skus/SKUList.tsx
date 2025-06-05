@@ -63,9 +63,9 @@ export default function SKUList({
 						<select
 							value={selectedCatalog}
 							onChange={(e) => onCatalogFilter(e.target.value)}
-							className="px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+							className="px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-gray-900"
 						>
-							<option value="">All Catalogs</option>
+							<option value="" className="text-gray-900 font-medium">All Catalogs</option>
 							{catalogs.map((catalog) => (
 								<option key={String(catalog._id)} value={String(catalog._id)}>
 									{catalog.name}
@@ -75,9 +75,9 @@ export default function SKUList({
 						<select
 							value={selectedManufacturer}
 							onChange={(e) => onManufacturerFilter(e.target.value)}
-							className="px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+							className="px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-gray-900"
 						>
-							<option value="">All Manufacturers</option>
+							<option value="" className="text-gray-900 font-medium">All Manufacturers</option>
 							{uniqueManufacturers.map((manufacturer) => (
 								<option key={manufacturer} value={manufacturer}>
 									{manufacturer}
@@ -87,9 +87,9 @@ export default function SKUList({
 						<select
 							value={selectedStatus}
 							onChange={(e) => onStatusFilter(e.target.value)}
-							className="px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+							className="px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 text-gray-900"
 						>
-							<option value="">All Statuses</option>
+							<option value="" className="text-gray-900 font-medium">All Statuses</option>
 							{statuses.map((status) => (
 								<option key={status} value={status}>
 									{status.charAt(0).toUpperCase() + status.slice(1)}
