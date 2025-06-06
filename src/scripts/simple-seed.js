@@ -5,7 +5,7 @@ const mongoose = require('mongoose')
 
 // Simple connection function
 async function connectDB() {
-  const uri = process.env.MONGODB_URI || 'mongodb://localhost:27017/inventory'
+  const uri = process.env.MONGODB_URI || 'mongodb://localhost:27017/inventory-mgmt'
   
   if (mongoose.connection.readyState === 0) {
     try {
