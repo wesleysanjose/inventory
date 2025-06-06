@@ -7,9 +7,11 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "seed": "node src/scripts/simple-seed.js",
+    "seed": "node src/scripts/seed-from-export.js",
     "seed:generate": "node src/scripts/simple-seed.js",
-    "db:reset": "node src/scripts/simple-seed.js"
+    "seed:export": "node src/scripts/export-current-data.js",
+    "seed:import": "node src/scripts/seed-from-export.js",
+    "db:reset": "node src/scripts/seed-from-export.js"
   },
   "dependencies": {
     "chart.js": "^4.4.9",

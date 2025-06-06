@@ -1,0 +1,1278 @@
+{
+  "skus": [
+    {
+      "_id": "68422ad9876f102eecdd2ad7",
+      "catalogId": "68422ad9876f102eecdd2ad4",
+      "skuCode": "HP-DL380-G10",
+      "name": "HP ProLiant DL380 Gen10",
+      "modelName": "DL380 Gen10",
+      "description": "Enterprise rack server",
+      "manufacturer": "HP",
+      "status": "active",
+      "specifications": {
+        "cpu": "Intel Xeon Silver 4210R",
+        "memory": "32GB DDR4",
+        "storage": "2x 1TB SAS"
+      },
+      "pricing": {
+        "msrp": 4500,
+        "currency": "USD",
+        "effectiveDate": "2024-01-01T00:00:00.000Z"
+      },
+      "warranty": {
+        "standard": 3,
+        "support": "Next Business Day"
+      },
+      "createdAt": "2025-06-05T23:40:09.348Z",
+      "updatedAt": "2025-06-05T23:40:09.348Z"
+    },
+    {
+      "_id": "68422ad9876f102eecdd2ad8",
+      "catalogId": "68422ad9876f102eecdd2ad5",
+      "skuCode": "CISCO-C9300-48P",
+      "name": "Cisco Catalyst 9300 48-Port",
+      "modelName": "C9300-48P",
+      "description": "Enterprise switch",
+      "manufacturer": "Cisco",
+      "status": "active",
+      "specifications": {
+        "networkPorts": 48,
+        "powerSupply": "715W"
+      },
+      "pricing": {
+        "msrp": 8500,
+        "currency": "USD",
+        "effectiveDate": "2024-01-01T00:00:00.000Z"
+      },
+      "warranty": {
+        "standard": 1,
+        "support": "Next Business Day"
+      },
+      "createdAt": "2025-06-05T23:40:09.348Z",
+      "updatedAt": "2025-06-05T23:40:09.348Z"
+    },
+    {
+      "_id": "68422ad9876f102eecdd2ad9",
+      "catalogId": "68422ad9876f102eecdd2ad6",
+      "skuCode": "PALO-PA-3220",
+      "name": "Palo Alto PA-3220",
+      "modelName": "PA-3220",
+      "description": "Next-generation firewall",
+      "manufacturer": "Palo Alto",
+      "status": "active",
+      "specifications": {
+        "networkPorts": 16,
+        "powerSupply": "200W"
+      },
+      "pricing": {
+        "msrp": 12000,
+        "currency": "USD",
+        "effectiveDate": "2024-01-01T00:00:00.000Z"
+      },
+      "warranty": {
+        "standard": 1,
+        "support": "Next Business Day"
+      },
+      "createdAt": "2025-06-05T23:40:09.348Z",
+      "updatedAt": "2025-06-05T23:40:09.348Z"
+    }
+  ],
+  "assets": [
+    {
+      "_id": "68422ad9876f102eecdd2ada",
+      "skuId": "68422ad9876f102eecdd2ad7",
+      "assetTag": "AST-000001",
+      "name": "HP ProLiant DL380 Gen10 #1",
+      "serialNumber": "SN2KVIC067",
+      "status": "inactive",
+      "location": {
+        "datacenter": "EU-Central-1",
+        "rack": "R4",
+        "rackUnit": 37,
+        "city": "Frankfurt",
+        "country": "Germany"
+      },
+      "deployment": {
+        "environment": "production",
+        "goLiveDate": "2024-09-22T07:00:00.000Z"
+      },
+      "specifications": {
+        "hostname": "fw-001",
+        "ipAddress": "10.248.208.172"
+      },
+      "financial": {
+        "capex": {
+          "purchasePrice": 4372,
+          "currency": "USD",
+          "purchaseDate": "2024-09-15T07:00:00.000Z",
+          "vendor": "HP",
+          "poNumber": "PO-200297",
+          "depreciationPeriodYears": 4
+        },
+        "opex": {
+          "warranty": [],
+          "maintenance": []
+        }
+      },
+      "createdAt": "2025-06-05T23:40:09.350Z",
+      "updatedAt": "2025-06-05T23:40:09.350Z"
+    },
+    {
+      "_id": "68422ad9876f102eecdd2adb",
+      "skuId": "68422ad9876f102eecdd2ad7",
+      "assetTag": "AST-000002",
+      "name": "HP ProLiant DL380 Gen10 #2",
+      "serialNumber": "SNTTR4HEUH",
+      "status": "active",
+      "location": {
+        "datacenter": "US-West-2",
+        "rack": "R15",
+        "rackUnit": 17,
+        "city": "San Francisco",
+        "country": "USA"
+      },
+      "deployment": {
+        "environment": "production",
+        "goLiveDate": "2024-03-08T08:00:00.000Z"
+      },
+      "specifications": {
+        "hostname": "fw-002",
+        "ipAddress": "10.45.7.239"
+      },
+      "financial": {
+        "capex": {
+          "purchasePrice": 5018,
+          "currency": "USD",
+          "purchaseDate": "2024-02-28T08:00:00.000Z",
+          "vendor": "HP",
+          "poNumber": "PO-617384",
+          "depreciationPeriodYears": 4
+        },
+        "opex": {
+          "warranty": [],
+          "maintenance": []
+        }
+      },
+      "createdAt": "2025-06-05T23:40:09.350Z",
+      "updatedAt": "2025-06-05T23:40:09.350Z"
+    },
+    {
+      "_id": "68422ad9876f102eecdd2adc",
+      "skuId": "68422ad9876f102eecdd2ad7",
+      "assetTag": "AST-000003",
+      "name": "HP ProLiant DL380 Gen10 #3",
+      "serialNumber": "SNTT7UQ8PU",
+      "status": "inactive",
+      "location": {
+        "datacenter": "EU-Central-1",
+        "rack": "R18",
+        "rackUnit": 39,
+        "city": "Frankfurt",
+        "country": "Germany"
+      },
+      "deployment": {
+        "environment": "staging",
+        "goLiveDate": "2024-07-28T07:00:00.000Z"
+      },
+      "specifications": {
+        "hostname": "fw-003",
+        "ipAddress": "10.78.168.26"
+      },
+      "financial": {
+        "capex": {
+          "purchasePrice": 3688,
+          "currency": "USD",
+          "purchaseDate": "2024-07-20T07:00:00.000Z",
+          "vendor": "HP",
+          "poNumber": "PO-401418",
+          "depreciationPeriodYears": 4
+        },
+        "opex": {
+          "warranty": [],
+          "maintenance": []
+        }
+      },
+      "createdAt": "2025-06-05T23:40:09.350Z",
+      "updatedAt": "2025-06-05T23:40:09.350Z"
+    },
+    {
+      "_id": "68422ad9876f102eecdd2add",
+      "skuId": "68422ad9876f102eecdd2ad7",
+      "assetTag": "AST-000004",
+      "name": "HP ProLiant DL380 Gen10 #4",
+      "serialNumber": "SNU96CSVJQ",
+      "status": "active",
+      "location": {
+        "datacenter": "US-West-2",
+        "rack": "R9",
+        "rackUnit": 6,
+        "city": "San Francisco",
+        "country": "USA"
+      },
+      "deployment": {
+        "environment": "staging",
+        "goLiveDate": "2024-05-06T07:00:00.000Z"
+      },
+      "specifications": {
+        "hostname": "fw-004",
+        "ipAddress": "10.213.85.175"
+      },
+      "financial": {
+        "capex": {
+          "purchasePrice": 4524,
+          "currency": "USD",
+          "purchaseDate": "2024-05-02T07:00:00.000Z",
+          "vendor": "HP",
+          "poNumber": "PO-662480",
+          "depreciationPeriodYears": 4
+        },
+        "opex": {
+          "warranty": [],
+          "maintenance": []
+        }
+      },
+      "createdAt": "2025-06-05T23:40:09.350Z",
+      "updatedAt": "2025-06-05T23:40:09.350Z"
+    },
+    {
+      "_id": "68422ad9876f102eecdd2ade",
+      "skuId": "68422ad9876f102eecdd2ad7",
+      "assetTag": "AST-000005",
+      "name": "HP ProLiant DL380 Gen10 #5",
+      "serialNumber": "SN4PQQ2QQV",
+      "status": "active",
+      "location": {
+        "datacenter": "EU-Central-1",
+        "rack": "R5",
+        "rackUnit": 30,
+        "city": "Frankfurt",
+        "country": "Germany"
+      },
+      "deployment": {
+        "environment": "staging",
+        "goLiveDate": "2024-08-23T07:00:00.000Z"
+      },
+      "specifications": {
+        "hostname": "fw-005",
+        "ipAddress": "10.186.115.107"
+      },
+      "financial": {
+        "capex": {
+          "purchasePrice": 4929,
+          "currency": "USD",
+          "purchaseDate": "2024-08-16T07:00:00.000Z",
+          "vendor": "HP",
+          "poNumber": "PO-700836",
+          "depreciationPeriodYears": 4
+        },
+        "opex": {
+          "warranty": [],
+          "maintenance": []
+        }
+      },
+      "createdAt": "2025-06-05T23:40:09.350Z",
+      "updatedAt": "2025-06-05T23:40:09.350Z"
+    },
+    {
+      "_id": "68422ad9876f102eecdd2adf",
+      "skuId": "68422ad9876f102eecdd2ad7",
+      "assetTag": "AST-000006",
+      "name": "HP ProLiant DL380 Gen10 #6",
+      "serialNumber": "SN3TXHREF9",
+      "status": "active",
+      "location": {
+        "datacenter": "US-East-1",
+        "rack": "R13",
+        "rackUnit": 42,
+        "city": "New York",
+        "country": "USA"
+      },
+      "deployment": {
+        "environment": "staging",
+        "goLiveDate": "2024-07-01T07:00:00.000Z"
+      },
+      "specifications": {
+        "hostname": "fw-006",
+        "ipAddress": "10.68.239.73"
+      },
+      "financial": {
+        "capex": {
+          "purchasePrice": 3899,
+          "currency": "USD",
+          "purchaseDate": "2024-06-26T07:00:00.000Z",
+          "vendor": "HP",
+          "poNumber": "PO-730224",
+          "depreciationPeriodYears": 4
+        },
+        "opex": {
+          "warranty": [],
+          "maintenance": []
+        }
+      },
+      "createdAt": "2025-06-05T23:40:09.350Z",
+      "updatedAt": "2025-06-05T23:40:09.350Z"
+    },
+    {
+      "_id": "68422ad9876f102eecdd2ae0",
+      "skuId": "68422ad9876f102eecdd2ad7",
+      "assetTag": "AST-000007",
+      "name": "HP ProLiant DL380 Gen10 #7",
+      "serialNumber": "SNV1I77JX8",
+      "status": "active",
+      "location": {
+        "datacenter": "EU-Central-1",
+        "rack": "R7",
+        "rackUnit": 26,
+        "city": "Frankfurt",
+        "country": "Germany"
+      },
+      "deployment": {
+        "environment": "staging",
+        "goLiveDate": "2024-02-15T08:00:00.000Z"
+      },
+      "specifications": {
+        "hostname": "fw-007",
+        "ipAddress": "10.101.164.229"
+      },
+      "financial": {
+        "capex": {
+          "purchasePrice": 4854,
+          "currency": "USD",
+          "purchaseDate": "2024-02-12T08:00:00.000Z",
+          "vendor": "HP",
+          "poNumber": "PO-699325",
+          "depreciationPeriodYears": 4
+        },
+        "opex": {
+          "warranty": [],
+          "maintenance": []
+        }
+      },
+      "createdAt": "2025-06-05T23:40:09.350Z",
+      "updatedAt": "2025-06-05T23:40:09.350Z"
+    },
+    {
+      "_id": "68422ad9876f102eecdd2ae1",
+      "skuId": "68422ad9876f102eecdd2ad7",
+      "assetTag": "AST-000008",
+      "name": "HP ProLiant DL380 Gen10 #8",
+      "serialNumber": "SNF1329KSJ",
+      "status": "active",
+      "location": {
+        "datacenter": "EU-Central-1",
+        "rack": "R19",
+        "rackUnit": 34,
+        "city": "Frankfurt",
+        "country": "Germany"
+      },
+      "deployment": {
+        "environment": "staging",
+        "goLiveDate": "2024-09-25T07:00:00.000Z"
+      },
+      "specifications": {
+        "hostname": "fw-008",
+        "ipAddress": "10.171.120.172"
+      },
+      "financial": {
+        "capex": {
+          "purchasePrice": 3745,
+          "currency": "USD",
+          "purchaseDate": "2024-09-24T07:00:00.000Z",
+          "vendor": "HP",
+          "poNumber": "PO-195778",
+          "depreciationPeriodYears": 4
+        },
+        "opex": {
+          "warranty": [],
+          "maintenance": []
+        }
+      },
+      "createdAt": "2025-06-05T23:40:09.350Z",
+      "updatedAt": "2025-06-05T23:40:09.350Z"
+    },
+    {
+      "_id": "68422ad9876f102eecdd2ae2",
+      "skuId": "68422ad9876f102eecdd2ad7",
+      "assetTag": "AST-000009",
+      "name": "HP ProLiant DL380 Gen10 #9",
+      "serialNumber": "SNHBVJ81R6",
+      "status": "active",
+      "location": {
+        "datacenter": "US-East-1",
+        "rack": "R10",
+        "rackUnit": 2,
+        "city": "New York",
+        "country": "USA"
+      },
+      "deployment": {
+        "environment": "staging",
+        "goLiveDate": "2024-05-24T07:00:00.000Z"
+      },
+      "specifications": {
+        "hostname": "fw-009",
+        "ipAddress": "10.209.151.37"
+      },
+      "financial": {
+        "capex": {
+          "purchasePrice": 4577,
+          "currency": "USD",
+          "purchaseDate": "2024-05-15T07:00:00.000Z",
+          "vendor": "HP",
+          "poNumber": "PO-121115",
+          "depreciationPeriodYears": 4
+        },
+        "opex": {
+          "warranty": [],
+          "maintenance": []
+        }
+      },
+      "createdAt": "2025-06-05T23:40:09.350Z",
+      "updatedAt": "2025-06-05T23:40:09.350Z"
+    },
+    {
+      "_id": "68422ad9876f102eecdd2ae3",
+      "skuId": "68422ad9876f102eecdd2ad7",
+      "assetTag": "AST-000010",
+      "name": "HP ProLiant DL380 Gen10 #10",
+      "serialNumber": "SNWRSUACQI",
+      "status": "inactive",
+      "location": {
+        "datacenter": "EU-Central-1",
+        "rack": "R2",
+        "rackUnit": 17,
+        "city": "Frankfurt",
+        "country": "Germany"
+      },
+      "deployment": {
+        "environment": "production",
+        "goLiveDate": "2024-11-10T08:00:00.000Z"
+      },
+      "specifications": {
+        "hostname": "fw-010",
+        "ipAddress": "10.204.132.25"
+      },
+      "financial": {
+        "capex": {
+          "purchasePrice": 4185,
+          "currency": "USD",
+          "purchaseDate": "2024-11-09T08:00:00.000Z",
+          "vendor": "HP",
+          "poNumber": "PO-720625",
+          "depreciationPeriodYears": 4
+        },
+        "opex": {
+          "warranty": [],
+          "maintenance": []
+        }
+      },
+      "createdAt": "2025-06-05T23:40:09.350Z",
+      "updatedAt": "2025-06-05T23:40:09.350Z"
+    },
+    {
+      "_id": "68422ad9876f102eecdd2ae4",
+      "skuId": "68422ad9876f102eecdd2ad8",
+      "assetTag": "AST-000011",
+      "name": "Cisco Catalyst 9300 48-Port #11",
+      "serialNumber": "SNTFWRVAZL",
+      "status": "active",
+      "location": {
+        "datacenter": "US-East-1",
+        "rack": "R20",
+        "rackUnit": 21,
+        "city": "New York",
+        "country": "USA"
+      },
+      "deployment": {
+        "environment": "staging",
+        "goLiveDate": "2024-02-09T08:00:00.000Z"
+      },
+      "specifications": {
+        "hostname": "fw-011",
+        "ipAddress": "10.51.254.189"
+      },
+      "financial": {
+        "capex": {
+          "purchasePrice": 9954,
+          "currency": "USD",
+          "purchaseDate": "2024-02-06T08:00:00.000Z",
+          "vendor": "Cisco",
+          "poNumber": "PO-163245",
+          "depreciationPeriodYears": 4
+        },
+        "opex": {
+          "warranty": [],
+          "maintenance": []
+        }
+      },
+      "createdAt": "2025-06-05T23:40:09.350Z",
+      "updatedAt": "2025-06-05T23:40:09.350Z"
+    },
+    {
+      "_id": "68422ad9876f102eecdd2ae5",
+      "skuId": "68422ad9876f102eecdd2ad8",
+      "assetTag": "AST-000012",
+      "name": "Cisco Catalyst 9300 48-Port #12",
+      "serialNumber": "SN8POGG0QL",
+      "status": "active",
+      "location": {
+        "datacenter": "EU-Central-1",
+        "rack": "R8",
+        "rackUnit": 2,
+        "city": "Frankfurt",
+        "country": "Germany"
+      },
+      "deployment": {
+        "environment": "development",
+        "goLiveDate": "2024-08-22T07:00:00.000Z"
+      },
+      "specifications": {
+        "hostname": "fw-012",
+        "ipAddress": "10.151.70.89"
+      },
+      "financial": {
+        "capex": {
+          "purchasePrice": 8281,
+          "currency": "USD",
+          "purchaseDate": "2024-08-10T07:00:00.000Z",
+          "vendor": "Cisco",
+          "poNumber": "PO-843774",
+          "depreciationPeriodYears": 4
+        },
+        "opex": {
+          "warranty": [],
+          "maintenance": []
+        }
+      },
+      "createdAt": "2025-06-05T23:40:09.350Z",
+      "updatedAt": "2025-06-05T23:40:09.350Z"
+    },
+    {
+      "_id": "68422ad9876f102eecdd2ae6",
+      "skuId": "68422ad9876f102eecdd2ad8",
+      "assetTag": "AST-000013",
+      "name": "Cisco Catalyst 9300 48-Port #13",
+      "serialNumber": "SNOSP2RP1M",
+      "status": "active",
+      "location": {
+        "datacenter": "EU-Central-1",
+        "rack": "R2",
+        "rackUnit": 24,
+        "city": "Frankfurt",
+        "country": "Germany"
+      },
+      "deployment": {
+        "environment": "staging",
+        "goLiveDate": "2024-10-19T07:00:00.000Z"
+      },
+      "specifications": {
+        "hostname": "fw-013",
+        "ipAddress": "10.125.160.63"
+      },
+      "financial": {
+        "capex": {
+          "purchasePrice": 9384,
+          "currency": "USD",
+          "purchaseDate": "2024-10-15T07:00:00.000Z",
+          "vendor": "Cisco",
+          "poNumber": "PO-953477",
+          "depreciationPeriodYears": 4
+        },
+        "opex": {
+          "warranty": [],
+          "maintenance": []
+        }
+      },
+      "createdAt": "2025-06-05T23:40:09.350Z",
+      "updatedAt": "2025-06-05T23:40:09.350Z"
+    },
+    {
+      "_id": "68422ad9876f102eecdd2ae7",
+      "skuId": "68422ad9876f102eecdd2ad8",
+      "assetTag": "AST-000014",
+      "name": "Cisco Catalyst 9300 48-Port #14",
+      "serialNumber": "SNJCN93G9I",
+      "status": "inactive",
+      "location": {
+        "datacenter": "EU-Central-1",
+        "rack": "R6",
+        "rackUnit": 26,
+        "city": "Frankfurt",
+        "country": "Germany"
+      },
+      "deployment": {
+        "environment": "development",
+        "goLiveDate": "2024-04-01T07:00:00.000Z"
+      },
+      "specifications": {
+        "hostname": "fw-014",
+        "ipAddress": "10.242.239.153"
+      },
+      "financial": {
+        "capex": {
+          "purchasePrice": 9303,
+          "currency": "USD",
+          "purchaseDate": "2024-03-20T07:00:00.000Z",
+          "vendor": "Cisco",
+          "poNumber": "PO-685422",
+          "depreciationPeriodYears": 4
+        },
+        "opex": {
+          "warranty": [],
+          "maintenance": []
+        }
+      },
+      "createdAt": "2025-06-05T23:40:09.350Z",
+      "updatedAt": "2025-06-05T23:40:09.350Z"
+    },
+    {
+      "_id": "68422ad9876f102eecdd2ae8",
+      "skuId": "68422ad9876f102eecdd2ad8",
+      "assetTag": "AST-000015",
+      "name": "Cisco Catalyst 9300 48-Port #15",
+      "serialNumber": "SNMX78FIUU",
+      "status": "active",
+      "location": {
+        "datacenter": "US-East-1",
+        "rack": "R18",
+        "rackUnit": 30,
+        "city": "New York",
+        "country": "USA"
+      },
+      "deployment": {
+        "environment": "development",
+        "goLiveDate": "2024-01-20T08:00:00.000Z"
+      },
+      "specifications": {
+        "hostname": "fw-015",
+        "ipAddress": "10.95.233.181"
+      },
+      "financial": {
+        "capex": {
+          "purchasePrice": 8940,
+          "currency": "USD",
+          "purchaseDate": "2024-01-19T08:00:00.000Z",
+          "vendor": "Cisco",
+          "poNumber": "PO-151944",
+          "depreciationPeriodYears": 4
+        },
+        "opex": {
+          "warranty": [],
+          "maintenance": []
+        }
+      },
+      "createdAt": "2025-06-05T23:40:09.350Z",
+      "updatedAt": "2025-06-05T23:40:09.350Z"
+    },
+    {
+      "_id": "68422ad9876f102eecdd2ae9",
+      "skuId": "68422ad9876f102eecdd2ad8",
+      "assetTag": "AST-000016",
+      "name": "Cisco Catalyst 9300 48-Port #16",
+      "serialNumber": "SN4X931YJ0",
+      "status": "active",
+      "location": {
+        "datacenter": "US-East-1",
+        "rack": "R10",
+        "rackUnit": 40,
+        "city": "New York",
+        "country": "USA"
+      },
+      "deployment": {
+        "environment": "staging",
+        "goLiveDate": "2024-08-26T07:00:00.000Z"
+      },
+      "specifications": {
+        "hostname": "fw-016",
+        "ipAddress": "10.61.31.182"
+      },
+      "financial": {
+        "capex": {
+          "purchasePrice": 6948,
+          "currency": "USD",
+          "purchaseDate": "2024-08-25T07:00:00.000Z",
+          "vendor": "Cisco",
+          "poNumber": "PO-389898",
+          "depreciationPeriodYears": 4
+        },
+        "opex": {
+          "warranty": [],
+          "maintenance": []
+        }
+      },
+      "createdAt": "2025-06-05T23:40:09.350Z",
+      "updatedAt": "2025-06-05T23:40:09.350Z"
+    },
+    {
+      "_id": "68422ad9876f102eecdd2aea",
+      "skuId": "68422ad9876f102eecdd2ad8",
+      "assetTag": "AST-000017",
+      "name": "Cisco Catalyst 9300 48-Port #17",
+      "serialNumber": "SNCZBI3CFK",
+      "status": "active",
+      "location": {
+        "datacenter": "EU-Central-1",
+        "rack": "R9",
+        "rackUnit": 22,
+        "city": "Frankfurt",
+        "country": "Germany"
+      },
+      "deployment": {
+        "environment": "staging",
+        "goLiveDate": "2024-08-29T07:00:00.000Z"
+      },
+      "specifications": {
+        "hostname": "fw-017",
+        "ipAddress": "10.116.115.198"
+      },
+      "financial": {
+        "capex": {
+          "purchasePrice": 9141,
+          "currency": "USD",
+          "purchaseDate": "2024-08-23T07:00:00.000Z",
+          "vendor": "Cisco",
+          "poNumber": "PO-222495",
+          "depreciationPeriodYears": 4
+        },
+        "opex": {
+          "warranty": [],
+          "maintenance": []
+        }
+      },
+      "createdAt": "2025-06-05T23:40:09.350Z",
+      "updatedAt": "2025-06-05T23:40:09.350Z"
+    },
+    {
+      "_id": "68422ad9876f102eecdd2aeb",
+      "skuId": "68422ad9876f102eecdd2ad8",
+      "assetTag": "AST-000018",
+      "name": "Cisco Catalyst 9300 48-Port #18",
+      "serialNumber": "SNOLD9DO3H",
+      "status": "active",
+      "location": {
+        "datacenter": "US-West-2",
+        "rack": "R2",
+        "rackUnit": 12,
+        "city": "San Francisco",
+        "country": "USA"
+      },
+      "deployment": {
+        "environment": "development",
+        "goLiveDate": "2024-04-22T07:00:00.000Z"
+      },
+      "specifications": {
+        "hostname": "fw-018",
+        "ipAddress": "10.232.250.146"
+      },
+      "financial": {
+        "capex": {
+          "purchasePrice": 9208,
+          "currency": "USD",
+          "purchaseDate": "2024-04-18T07:00:00.000Z",
+          "vendor": "Cisco",
+          "poNumber": "PO-305016",
+          "depreciationPeriodYears": 4
+        },
+        "opex": {
+          "warranty": [],
+          "maintenance": []
+        }
+      },
+      "createdAt": "2025-06-05T23:40:09.350Z",
+      "updatedAt": "2025-06-05T23:40:09.350Z"
+    },
+    {
+      "_id": "68422ad9876f102eecdd2aec",
+      "skuId": "68422ad9876f102eecdd2ad8",
+      "assetTag": "AST-000019",
+      "name": "Cisco Catalyst 9300 48-Port #19",
+      "serialNumber": "SNQTFQASWA",
+      "status": "active",
+      "location": {
+        "datacenter": "US-West-2",
+        "rack": "R7",
+        "rackUnit": 16,
+        "city": "San Francisco",
+        "country": "USA"
+      },
+      "deployment": {
+        "environment": "staging",
+        "goLiveDate": "2024-11-01T07:00:00.000Z"
+      },
+      "specifications": {
+        "hostname": "fw-019",
+        "ipAddress": "10.161.13.151"
+      },
+      "financial": {
+        "capex": {
+          "purchasePrice": 9533,
+          "currency": "USD",
+          "purchaseDate": "2024-10-26T07:00:00.000Z",
+          "vendor": "Cisco",
+          "poNumber": "PO-129375",
+          "depreciationPeriodYears": 4
+        },
+        "opex": {
+          "warranty": [],
+          "maintenance": []
+        }
+      },
+      "createdAt": "2025-06-05T23:40:09.350Z",
+      "updatedAt": "2025-06-05T23:40:09.350Z"
+    },
+    {
+      "_id": "68422ad9876f102eecdd2aed",
+      "skuId": "68422ad9876f102eecdd2ad8",
+      "assetTag": "AST-000020",
+      "name": "Cisco Catalyst 9300 48-Port #20",
+      "serialNumber": "SN01QY544G",
+      "status": "active",
+      "location": {
+        "datacenter": "US-East-1",
+        "rack": "R18",
+        "rackUnit": 31,
+        "city": "New York",
+        "country": "USA"
+      },
+      "deployment": {
+        "environment": "staging",
+        "goLiveDate": "2024-06-22T07:00:00.000Z"
+      },
+      "specifications": {
+        "hostname": "fw-020",
+        "ipAddress": "10.236.22.178"
+      },
+      "financial": {
+        "capex": {
+          "purchasePrice": 9822,
+          "currency": "USD",
+          "purchaseDate": "2024-06-16T07:00:00.000Z",
+          "vendor": "Cisco",
+          "poNumber": "PO-147260",
+          "depreciationPeriodYears": 4
+        },
+        "opex": {
+          "warranty": [],
+          "maintenance": []
+        }
+      },
+      "createdAt": "2025-06-05T23:40:09.350Z",
+      "updatedAt": "2025-06-05T23:40:09.350Z"
+    },
+    {
+      "_id": "68422ad9876f102eecdd2aee",
+      "skuId": "68422ad9876f102eecdd2ad9",
+      "assetTag": "AST-000021",
+      "name": "Palo Alto PA-3220 #21",
+      "serialNumber": "SNBY3NUOO1",
+      "status": "active",
+      "location": {
+        "datacenter": "EU-Central-1",
+        "rack": "R11",
+        "rackUnit": 4,
+        "city": "Frankfurt",
+        "country": "Germany"
+      },
+      "deployment": {
+        "environment": "staging",
+        "goLiveDate": "2024-08-11T07:00:00.000Z"
+      },
+      "specifications": {
+        "hostname": "fw-021",
+        "ipAddress": "10.158.89.247"
+      },
+      "financial": {
+        "capex": {
+          "purchasePrice": 11742,
+          "currency": "USD",
+          "purchaseDate": "2024-08-03T07:00:00.000Z",
+          "vendor": "Palo Alto",
+          "poNumber": "PO-789443",
+          "depreciationPeriodYears": 4
+        },
+        "opex": {
+          "warranty": [],
+          "maintenance": []
+        }
+      },
+      "createdAt": "2025-06-05T23:40:09.350Z",
+      "updatedAt": "2025-06-05T23:40:09.350Z"
+    },
+    {
+      "_id": "68422ad9876f102eecdd2aef",
+      "skuId": "68422ad9876f102eecdd2ad9",
+      "assetTag": "AST-000022",
+      "name": "Palo Alto PA-3220 #22",
+      "serialNumber": "SN4IRQQ67C",
+      "status": "active",
+      "location": {
+        "datacenter": "US-East-1",
+        "rack": "R9",
+        "rackUnit": 37,
+        "city": "New York",
+        "country": "USA"
+      },
+      "deployment": {
+        "environment": "production",
+        "goLiveDate": "2024-01-27T08:00:00.000Z"
+      },
+      "specifications": {
+        "hostname": "fw-022",
+        "ipAddress": "10.36.139.238"
+      },
+      "financial": {
+        "capex": {
+          "purchasePrice": 10207,
+          "currency": "USD",
+          "purchaseDate": "2024-01-19T08:00:00.000Z",
+          "vendor": "Palo Alto",
+          "poNumber": "PO-696757",
+          "depreciationPeriodYears": 4
+        },
+        "opex": {
+          "warranty": [],
+          "maintenance": []
+        }
+      },
+      "createdAt": "2025-06-05T23:40:09.350Z",
+      "updatedAt": "2025-06-05T23:40:09.350Z"
+    },
+    {
+      "_id": "68422ad9876f102eecdd2af0",
+      "skuId": "68422ad9876f102eecdd2ad9",
+      "assetTag": "AST-000023",
+      "name": "Palo Alto PA-3220 #23",
+      "serialNumber": "SNUYEJB7FP",
+      "status": "inactive",
+      "location": {
+        "datacenter": "US-East-1",
+        "rack": "R3",
+        "rackUnit": 7,
+        "city": "New York",
+        "country": "USA"
+      },
+      "deployment": {
+        "environment": "staging",
+        "goLiveDate": "2024-03-11T07:00:00.000Z"
+      },
+      "specifications": {
+        "hostname": "fw-023",
+        "ipAddress": "10.33.75.152"
+      },
+      "financial": {
+        "capex": {
+          "purchasePrice": 12537,
+          "currency": "USD",
+          "purchaseDate": "2024-02-26T08:00:00.000Z",
+          "vendor": "Palo Alto",
+          "poNumber": "PO-568418",
+          "depreciationPeriodYears": 4
+        },
+        "opex": {
+          "warranty": [],
+          "maintenance": []
+        }
+      },
+      "createdAt": "2025-06-05T23:40:09.350Z",
+      "updatedAt": "2025-06-05T23:40:09.350Z"
+    },
+    {
+      "_id": "68422ad9876f102eecdd2af1",
+      "skuId": "68422ad9876f102eecdd2ad9",
+      "assetTag": "AST-000024",
+      "name": "Palo Alto PA-3220 #24",
+      "serialNumber": "SNW7HLKEWH",
+      "status": "inactive",
+      "location": {
+        "datacenter": "US-West-2",
+        "rack": "R17",
+        "rackUnit": 32,
+        "city": "San Francisco",
+        "country": "USA"
+      },
+      "deployment": {
+        "environment": "staging",
+        "goLiveDate": "2024-08-13T07:00:00.000Z"
+      },
+      "specifications": {
+        "hostname": "fw-024",
+        "ipAddress": "10.224.86.192"
+      },
+      "financial": {
+        "capex": {
+          "purchasePrice": 11294,
+          "currency": "USD",
+          "purchaseDate": "2024-08-09T07:00:00.000Z",
+          "vendor": "Palo Alto",
+          "poNumber": "PO-440724",
+          "depreciationPeriodYears": 4
+        },
+        "opex": {
+          "warranty": [],
+          "maintenance": []
+        }
+      },
+      "createdAt": "2025-06-05T23:40:09.350Z",
+      "updatedAt": "2025-06-05T23:40:09.350Z"
+    },
+    {
+      "_id": "68422ad9876f102eecdd2af2",
+      "skuId": "68422ad9876f102eecdd2ad9",
+      "assetTag": "AST-000025",
+      "name": "Palo Alto PA-3220 #25",
+      "serialNumber": "SNEF5J3TLB",
+      "status": "active",
+      "location": {
+        "datacenter": "US-West-2",
+        "rack": "R12",
+        "rackUnit": 20,
+        "city": "San Francisco",
+        "country": "USA"
+      },
+      "deployment": {
+        "environment": "production",
+        "goLiveDate": "2024-02-12T08:00:00.000Z"
+      },
+      "specifications": {
+        "hostname": "fw-025",
+        "ipAddress": "10.239.232.196"
+      },
+      "financial": {
+        "capex": {
+          "purchasePrice": 10360,
+          "currency": "USD",
+          "purchaseDate": "2024-02-11T08:00:00.000Z",
+          "vendor": "Palo Alto",
+          "poNumber": "PO-724153",
+          "depreciationPeriodYears": 4
+        },
+        "opex": {
+          "warranty": [],
+          "maintenance": []
+        }
+      },
+      "createdAt": "2025-06-05T23:40:09.350Z",
+      "updatedAt": "2025-06-05T23:40:09.350Z"
+    },
+    {
+      "_id": "68422ad9876f102eecdd2af3",
+      "skuId": "68422ad9876f102eecdd2ad9",
+      "assetTag": "AST-000026",
+      "name": "Palo Alto PA-3220 #26",
+      "serialNumber": "SNVDY4HJGR",
+      "status": "inactive",
+      "location": {
+        "datacenter": "EU-Central-1",
+        "rack": "R19",
+        "rackUnit": 15,
+        "city": "Frankfurt",
+        "country": "Germany"
+      },
+      "deployment": {
+        "environment": "development",
+        "goLiveDate": "2024-05-20T07:00:00.000Z"
+      },
+      "specifications": {
+        "hostname": "fw-026",
+        "ipAddress": "10.133.211.106"
+      },
+      "financial": {
+        "capex": {
+          "purchasePrice": 12963,
+          "currency": "USD",
+          "purchaseDate": "2024-05-15T07:00:00.000Z",
+          "vendor": "Palo Alto",
+          "poNumber": "PO-548472",
+          "depreciationPeriodYears": 4
+        },
+        "opex": {
+          "warranty": [],
+          "maintenance": []
+        }
+      },
+      "createdAt": "2025-06-05T23:40:09.350Z",
+      "updatedAt": "2025-06-05T23:40:09.350Z"
+    },
+    {
+      "_id": "68422ad9876f102eecdd2af4",
+      "skuId": "68422ad9876f102eecdd2ad9",
+      "assetTag": "AST-000027",
+      "name": "Palo Alto PA-3220 #27",
+      "serialNumber": "SN0J1HHILP",
+      "status": "active",
+      "location": {
+        "datacenter": "US-East-1",
+        "rack": "R8",
+        "rackUnit": 38,
+        "city": "New York",
+        "country": "USA"
+      },
+      "deployment": {
+        "environment": "development",
+        "goLiveDate": "2024-06-02T07:00:00.000Z"
+      },
+      "specifications": {
+        "hostname": "fw-027",
+        "ipAddress": "10.154.150.212"
+      },
+      "financial": {
+        "capex": {
+          "purchasePrice": 13168,
+          "currency": "USD",
+          "purchaseDate": "2024-05-20T07:00:00.000Z",
+          "vendor": "Palo Alto",
+          "poNumber": "PO-598336",
+          "depreciationPeriodYears": 4
+        },
+        "opex": {
+          "warranty": [],
+          "maintenance": []
+        }
+      },
+      "createdAt": "2025-06-05T23:40:09.350Z",
+      "updatedAt": "2025-06-05T23:40:09.350Z"
+    },
+    {
+      "_id": "68422ad9876f102eecdd2af5",
+      "skuId": "68422ad9876f102eecdd2ad9",
+      "assetTag": "AST-000028",
+      "name": "Palo Alto PA-3220 #28",
+      "serialNumber": "SNNRVIL73Q",
+      "status": "active",
+      "location": {
+        "datacenter": "US-West-2",
+        "rack": "R11",
+        "rackUnit": 25,
+        "city": "San Francisco",
+        "country": "USA"
+      },
+      "deployment": {
+        "environment": "staging",
+        "goLiveDate": "2024-08-02T07:00:00.000Z"
+      },
+      "specifications": {
+        "hostname": "fw-028",
+        "ipAddress": "10.94.23.105"
+      },
+      "financial": {
+        "capex": {
+          "purchasePrice": 13918,
+          "currency": "USD",
+          "purchaseDate": "2024-08-01T07:00:00.000Z",
+          "vendor": "Palo Alto",
+          "poNumber": "PO-124138",
+          "depreciationPeriodYears": 4
+        },
+        "opex": {
+          "warranty": [],
+          "maintenance": []
+        }
+      },
+      "createdAt": "2025-06-05T23:40:09.350Z",
+      "updatedAt": "2025-06-05T23:40:09.350Z"
+    },
+    {
+      "_id": "68422ad9876f102eecdd2af6",
+      "skuId": "68422ad9876f102eecdd2ad9",
+      "assetTag": "AST-000029",
+      "name": "Palo Alto PA-3220 #29",
+      "serialNumber": "SN3LF34AU5",
+      "status": "active",
+      "location": {
+        "datacenter": "US-West-2",
+        "rack": "R10",
+        "rackUnit": 20,
+        "city": "San Francisco",
+        "country": "USA"
+      },
+      "deployment": {
+        "environment": "production",
+        "goLiveDate": "2024-11-01T07:00:00.000Z"
+      },
+      "specifications": {
+        "hostname": "fw-029",
+        "ipAddress": "10.220.129.193"
+      },
+      "financial": {
+        "capex": {
+          "purchasePrice": 10372,
+          "currency": "USD",
+          "purchaseDate": "2024-10-27T07:00:00.000Z",
+          "vendor": "Palo Alto",
+          "poNumber": "PO-881593",
+          "depreciationPeriodYears": 4
+        },
+        "opex": {
+          "warranty": [],
+          "maintenance": []
+        }
+      },
+      "createdAt": "2025-06-05T23:40:09.350Z",
+      "updatedAt": "2025-06-05T23:40:09.350Z"
+    },
+    {
+      "_id": "68422ad9876f102eecdd2af7",
+      "skuId": "68422ad9876f102eecdd2ad9",
+      "assetTag": "AST-000030",
+      "name": "Palo Alto PA-3220 #30",
+      "serialNumber": "SNAPB1ULNW",
+      "status": "active",
+      "location": {
+        "datacenter": "EU-Central-1",
+        "rack": "R16",
+        "rackUnit": 32,
+        "city": "Frankfurt",
+        "country": "Germany"
+      },
+      "deployment": {
+        "environment": "staging",
+        "goLiveDate": "2024-08-07T07:00:00.000Z"
+      },
+      "specifications": {
+        "hostname": "fw-030",
+        "ipAddress": "10.186.205.48"
+      },
+      "financial": {
+        "capex": {
+          "purchasePrice": 11288,
+          "currency": "USD",
+          "purchaseDate": "2024-08-01T07:00:00.000Z",
+          "vendor": "Palo Alto",
+          "poNumber": "PO-692161",
+          "depreciationPeriodYears": 4
+        },
+        "opex": {
+          "warranty": [],
+          "maintenance": []
+        }
+      },
+      "createdAt": "2025-06-05T23:40:09.350Z",
+      "updatedAt": "2025-06-05T23:40:09.350Z"
+    }
+  ],
+  "catalogs": [
+    {
+      "_id": "68422ad9876f102eecdd2ad4",
+      "name": "Enterprise Servers",
+      "category": "server",
+      "description": "High-performance rack-mounted servers",
+      "createdAt": "2025-06-05T23:40:09.345Z",
+      "updatedAt": "2025-06-05T23:40:09.345Z"
+    },
+    {
+      "_id": "68422ad9876f102eecdd2ad5",
+      "name": "Network Switches",
+      "category": "network-switch",
+      "description": "Enterprise network switches",
+      "createdAt": "2025-06-05T23:40:09.345Z",
+      "updatedAt": "2025-06-05T23:40:09.345Z"
+    },
+    {
+      "_id": "68422ad9876f102eecdd2ad6",
+      "name": "Firewalls",
+      "category": "firewall",
+      "description": "Network security appliances",
+      "createdAt": "2025-06-05T23:40:09.345Z",
+      "updatedAt": "2025-06-05T23:40:09.345Z"
+    }
+  ]
+}
